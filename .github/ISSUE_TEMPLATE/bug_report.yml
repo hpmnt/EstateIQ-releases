@@ -1,0 +1,109 @@
+name: 🐞 Bug report
+description: Something in EstateIQ doesn't work the way it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem! Issues on this page are **public**. Please don't include serial numbers, document numbers, addresses, photos of your belongings, your master password or a backup file. Describe the problem with made-up items instead.
+
+        🔒 **Found a security problem?** Don't report it here. Use the [private security report](https://github.com/hpmnt/EstateIQ-releases/security/advisories/new) instead.
+
+  - type: input
+    id: version
+    attributes:
+      label: EstateIQ version
+      description: Shown in Settings › Updates (e.g. `0.15.0`).
+      placeholder: 0.15.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Where does it happen?
+      options:
+        - On the PC (Windows)
+        - In the Android app
+        - In a phone's browser
+        - Both on the PC and the phone
+    validations:
+      required: true
+
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other / not sure
+
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and Android version (if the phone is involved)
+      placeholder: Galaxy S24, Android 15, EstateIQ app 0.9.1
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of EstateIQ?
+      options:
+        - Installing or updating
+        - Password, lock and unlock
+        - Household items and photos
+        - Places and walkthrough
+        - Upkeep and service history
+        - Vehicles
+        - Documents and renewals
+        - Supplies and the shopping list
+        - Firearms, ammunition and gear
+        - Logbook and maintenance
+        - Safe check
+        - Barcode scanning
+        - Reports, PDFs and sharing
+        - Backups and restore
+        - Phone pairing and sync
+        - Settings
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect to happen instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen
+      description: The clicks or taps that lead to the problem, one per line.
+      placeholder: |
+        1. Open Household
+        2. Click an item, then Edit
+        3. …
+    validations:
+      required: true
+
+  - type: dropdown
+    id: how-often
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - It happened once
+    validations:
+      required: true
+
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else?
+      description: Error messages (copy the text), screenshots with private details covered, or anything that changed recently (an update, a new phone, a moved data folder).

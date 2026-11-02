@@ -1,0 +1,23 @@
+name: ❓ Question
+description: Not sure how something works? Ask here.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The [wiki](https://github.com/hpmnt/EstateIQ-releases/wiki) and its [FAQ](https://github.com/hpmnt/EstateIQ-releases/wiki/FAQ-and-Troubleshooting) may already have the answer. Issues are **public**: please leave out serial numbers, document numbers and other private details.
+
+  - type: input
+    id: version
+    attributes:
+      label: EstateIQ version
+      description: Shown in Settings › Updates.
+      placeholder: 0.15.0
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true

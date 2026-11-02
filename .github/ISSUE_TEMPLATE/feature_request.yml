@@ -1,0 +1,50 @@
+name: 💡 Idea or feature request
+description: Something EstateIQ could do, or do better.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please search the existing issues first. If someone already suggested it, add a 👍 there instead.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of EstateIQ is it about?
+      options:
+        - Household items and places
+        - Insurance claims and the walkthrough
+        - Upkeep
+        - Vehicles
+        - Documents and renewals
+        - Supplies and the shopping list
+        - The Armory (firearms, ammunition, gear)
+        - Reports and sharing
+        - Backups
+        - The phone app
+        - Something new
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The situation or task, in your own words. ("When I renew my car registration, I want to…")
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: How you picture it working. Rough is fine.
+    validations:
+      required: true
+
+  - type: textarea
+    id: now
+    attributes:
+      label: How do you do it today?
+      description: A workaround, another app or a spreadsheet, if any.
