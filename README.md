@@ -4,6 +4,8 @@
 
 EstateIQ keeps a record of what you own: furniture, electronics, appliances, valuables, vehicles, documents and supplies, plus firearms, ammunition and gear. It keeps photos, serial numbers, receipts, warranties and values, tracks upkeep and renewals, and prints the inventory your insurer asks for after a loss. Everything is encrypted and stays on your PC.
 
+> **Open beta.** EstateIQ is in open beta: almost everything works, but you may meet rough edges. Please report anything odd on the [issue tracker](https://github.com/hpmnt/EstateIQ-releases/issues), and keep automatic backups on. See [Feedback and security reports](https://github.com/hpmnt/EstateIQ-releases/wiki/Feedback-and-Security).
+
 **[⬇ Download the latest version](https://github.com/hpmnt/EstateIQ-releases/releases/latest)** · [Installing EstateIQ](https://github.com/hpmnt/EstateIQ-releases/wiki/Installing-EstateIQ) · [Getting started](https://github.com/hpmnt/EstateIQ-releases/wiki/Getting-Started) · [Feature sheet](https://github.com/hpmnt/EstateIQ-releases/wiki/Feature-Sheet)
 
 ---

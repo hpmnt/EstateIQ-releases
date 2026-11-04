@@ -14,8 +14,8 @@ body:
     id: version
     attributes:
       label: EstateIQ version
-      description: Shown in Settings › Updates (e.g. `0.15.0`).
-      placeholder: 0.15.0
+      description: Shown in Settings › Updates (e.g. `0.16.3 beta`).
+      placeholder: 0.16.3 beta
     validations:
       required: true
 

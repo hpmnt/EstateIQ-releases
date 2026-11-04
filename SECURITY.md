@@ -4,7 +4,7 @@ Thank you for helping keep EstateIQ and its users safe. EstateIQ holds people's 
 
 ## Supported versions
 
-EstateIQ updates itself automatically. Security fixes are made in the **latest release** only, so please check that the problem still exists in the newest version on the [Releases page](../../releases) before reporting.
+EstateIQ is in open beta and updates itself automatically. Security fixes are made in the **latest release** only, so please check that the problem still exists in the newest version on the [Releases page](../../releases) before reporting.
 
 | Version | Supported |
 | --- | --- |
