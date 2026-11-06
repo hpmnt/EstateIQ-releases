@@ -1,6 +1,6 @@
 # EstateIQ Privacy Policy
 
-*Last updated: November 4, 2026*
+*Last updated: November 5, 2026*
 
 EstateIQ is a household and firearm inventory for Windows, with an Android app that works with it. This policy covers both. In short: **your inventory stays on your own devices.** EstateIQ has no account, no cloud service and no server of its own, and its makers never receive your data.
 
@@ -19,7 +19,7 @@ EstateIQ sends nothing about your inventory to its makers or anyone else. It con
 | Your phone syncs with your PC | Your own PC, on your home network | Your encrypted inventory, over an encrypted connection pinned to your PC |
 | The Android app checks for a newer version of itself | Your own PC, on your home network | A request for the app version your PC carries; updates download from your PC |
 | You scan a barcode EstateIQ doesn't know, or check ammunition prices (phone app, after you agree once) | UPCitemdb.com | Only the barcode number |
-| You open a map | OpenStreetMap (tile.openstreetmap.org) and the U.S. Geological Survey (basemap.nationalmap.gov, imagery.nationalmap.gov) | Requests for the map pictures of the area shown, as any map app makes |
+| You open a map | OpenStreetMap (tile.openstreetmap.org); for satellite pictures, Mapbox (api.mapbox.com) or the U.S. Geological Survey (basemap.nationalmap.gov, imagery.nationalmap.gov) | Requests for the map pictures of the area shown, as any map app makes |
 | You search for an address on a map | OpenStreetMap's Nominatim (nominatim.openstreetmap.org) | The text you typed |
 | The Windows app checks for updates | GitHub (github.com/hpmnt/EstateIQ-releases) | A request for the latest version number; nothing else |
 
