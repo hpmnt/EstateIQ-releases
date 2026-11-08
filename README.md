@@ -10,11 +10,11 @@ EstateIQ keeps a record of what you own: furniture, electronics, appliances, val
 
 ---
 
-![EstateIQ's overview: what's coming up, household and Armory totals](https://github.com/hpmnt/EstateIQ-releases/wiki/images/overview.png)
+![EstateIQ's overview: what's coming up, possessions and Armory totals](https://github.com/hpmnt/EstateIQ-releases/wiki/images/overview.png)
 
 ## What EstateIQ does
 
-- **Household inventory**: things you own, in categories with fields of their own (appliances, electronics, furniture, valuables, tools, vehicles, documents, supplies), with photos, serial numbers, receipts, manuals, warranties, value history and who it goes to. See [Household and places](https://github.com/hpmnt/EstateIQ-releases/wiki/Household-and-Places).
+- **Possessions**: things you own, in categories with fields of their own (appliances, electronics, furniture, valuables, tools, vehicles, documents, supplies), with photos, serial numbers, receipts, manuals, warranties, value history and who it goes to. See [Possessions and places](https://github.com/hpmnt/EstateIQ-releases/wiki/Household-and-Places).
 - **Places and maps**: where everything is kept, as a tree (House › Primary bedroom › Fire safe), with room photos. Pin your house, cabin, storage unit or bank box on a map (OpenStreetMap), see where things are, and filter by where they're kept.
 - **Ready for an insurance claim**: a walkthrough of each room to photograph and tick off what's there, how ready each room is for a claim, and a **claim inventory** PDF, room by room, with photos, serial numbers, values and replacement cost.
 - **Upkeep**: schedules for the furnace filter, water heater, smoke alarms, gutters, mower, car and more, from a library of what makers' manuals and safety agencies say each needs and how often, with sources. Log what was done, by whom and what it cost. See [Upkeep](https://github.com/hpmnt/EstateIQ-releases/wiki/Upkeep).
@@ -41,7 +41,7 @@ See [Privacy and security](https://github.com/hpmnt/EstateIQ-releases/wiki/Priva
 - [Feature sheet](https://github.com/hpmnt/EstateIQ-releases/wiki/Feature-Sheet): every feature on one page, to print or share
 - [Installing EstateIQ](https://github.com/hpmnt/EstateIQ-releases/wiki/Installing-EstateIQ): requirements, installing, updates, uninstalling
 - [Getting started](https://github.com/hpmnt/EstateIQ-releases/wiki/Getting-Started): your password, your first items and places
-- [Household and places](https://github.com/hpmnt/EstateIQ-releases/wiki/Household-and-Places)
+- [Possessions and places](https://github.com/hpmnt/EstateIQ-releases/wiki/Household-and-Places)
 - [Upkeep](https://github.com/hpmnt/EstateIQ-releases/wiki/Upkeep)
 - [The Armory](https://github.com/hpmnt/EstateIQ-releases/wiki/The-Armory)
 - [Phone app](https://github.com/hpmnt/EstateIQ-releases/wiki/Phone-App)
